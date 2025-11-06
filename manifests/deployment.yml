@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: akhileshgopalazdemo 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: akhileshgopalazdemo
+  template:
+    metadata:
+      labels:
+        app: akhileshgopalazdemo 
+    spec:
+      containers:
+        - name: akhileshgopalazdemo 
+          image: akhileshrepo.azurecr.io/akhileshgopalazdemo
+          ports:
+          - containerPort: 80
