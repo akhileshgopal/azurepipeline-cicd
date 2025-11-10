@@ -91,7 +91,7 @@ stages:
   - job: DeployToAKS
     displayName: "Apply Kubernetes Manifests"
     pool:
-      vmImage: 'ubuntu-latest'
+      name: 'Default'
     steps:
     - checkout: self
 
