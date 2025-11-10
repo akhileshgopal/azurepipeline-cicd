@@ -12,7 +12,7 @@ variables:
   acrName: 'akhileshrepo'                     # ACR name (without .azurecr.io)
   acrLoginServer: 'akhileshrepo.azurecr.io'   # ACR login server
   imageName: 'sample-app'
-  aksResourceGroup: 'akhilesh'                # Resource group name
+  aksResourceGroup: 'akhilesh'                # Resource Group name
   aksClusterName: 'akcluster'                 # AKS cluster name
   kubernetesManifest: 'deployment.yaml'
   tag: '$(Build.BuildId)'
