@@ -3,7 +3,7 @@ function celebrate() {
     const confetti = document.getElementById('confetti');
 
     // Display congratulatory message
-    message.textContent = 'Congratulations!';
+    message.textContent = 'Happy Learning!';
     
     // Show confetti animation
     confetti.classList.remove('hidden');
