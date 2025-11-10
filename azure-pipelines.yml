@@ -27,7 +27,7 @@ stages:
   - job: BuildAndPush
     displayName: "Build and Push Image to ACR"
     pool:
-      vmImage: 'ubuntu-latest'
+      name: 'Default'
     steps:
     - checkout: self
 
